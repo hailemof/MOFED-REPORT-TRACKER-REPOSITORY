@@ -1,0 +1,40 @@
+body{
+	margin-top:90px;
+}
+.navbarSupportedContent .navbar-nav .nav-link {
+    color: red;
+    
+}
+.navbarSupportedContent .nav-item.active .nav-link,
+.navbarSupportedContent  .nav-item:hover .nav-link {
+    color: #ffffff;
+    
+}
+/* the following is to increase the navbar header size*/
+.navbar {
+  min-height: 80px !important;
+ 
+}
+
+
+.navbar-nav{
+	 
+	 font-size: 16px !important;
+	 
+}
+
+.nav-item a:hover {
+	        background-color:#FF0000;
+            color: white !important;
+            cursor: pointer;
+        }
+        /*the following two line of css code  is to make dropdownmenu on hover down with out clicking the button*/
+      .dropdown:hover>.dropdown-menu{
+      display:block;
+      }
+      .fa-angle-right{
+	float:right;
+}
+ .container .fa{
+	margin-right:8px;
+}
